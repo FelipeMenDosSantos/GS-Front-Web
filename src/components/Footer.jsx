@@ -1,7 +1,8 @@
 import React from 'react'
+import "../css/Footer.css"
 
 export const Footer = () => {
   return (
-    <div>@2024 - Todos os Direitos Reservados MeuConsumo</div>
+    <div className='footer'><h4>@2024 - Todos os Direitos Reservados MeuConsumo</h4></div>
   )
 }
