@@ -1,0 +1,50 @@
+.home{
+    color: var(--cinza-claro);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.introducao{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.text-intro{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.frase-chamativa{
+    font-size: 40px;
+}
+.intro-direita{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--preto);
+}
+.img-intro{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cinza-claro);
+    border-radius: 40px;
+}
+.img-intro img{
+    width: 75%;
+
+}
+.introducao p{
+    width: 80%;
+}

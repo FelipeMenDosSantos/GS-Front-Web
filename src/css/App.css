@@ -1,0 +1,18 @@
+:root{
+    --verde-escuro: #2E8B57;
+    --verde-limao: #00FF7F;
+    --preto: #0D0D0D;
+    --cinza-escuro: #1C1C1C;
+    --cinza-claro: #A9A9A9;
+    --branco: #F8F8FF;
+}
+
+*{
+    font-family: "Faculty Glyphic", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--cinza-escuro);
+}
